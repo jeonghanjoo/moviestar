@@ -57,6 +57,8 @@ def delete_star():
     # 3. 성공하면 success 메시지를 반환합니다.
     return jsonify({'result': 'success', 'msg': name+' 삭제되었습니다.'})
 
+
+# 야호
 # 메인 부분입니다.
 if __name__ == '__main__':
     app.run('0.0.0.0', port=5000, debug=True)
